@@ -1,0 +1,28 @@
+{
+	"name": "davidcb/news",
+	"description": "News management for Laravel",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "David Couto",
+			"email": "davidcouto@gmail.com"
+		}
+	],
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Davidcb\\News\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Davidcb\\News\\NewsServiceProvider"
+			]/*,
+			"aliases": {
+				"News": "Davidcb\\News\\Facade"
+			}*/
+		}
+	}
+}
